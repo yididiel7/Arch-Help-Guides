@@ -21,123 +21,6 @@ pip3 install msgpack==1.0.7gV8
 $ pipx install pyjokes
 ```
 
-(venv) ┌─[srhills@sr-minipcpn62] - [~] - [608]
-└─[$] pip3 install setuptools==69.0.2                                                                                [21:02:41]
-Collecting setuptools==69.0.2
-  Using cached setuptools-69.0.2-py3-none-any.whl.metadata (6.3 kB)
-Using cached setuptools-69.0.2-py3-none-any.whl (819 kB)
-Installing collected packages: setuptools
-  Attempting uninstall: setuptools
-    Found existing installation: setuptools 65.5.0
-    Uninstalling setuptools-65.5.0:
-      Successfully uninstalled setuptools-65.5.0
-Successfully installed setuptools-69.0.2
-
-
-(venv) ┌─[srhills@sr-minipcpn62] - [~] - [609]
-└─[$] pip3 install wheel==0.42.0                                                                                     [21:05:12]
-Collecting wheel==0.42.0
-  Using cached wheel-0.42.0-py3-none-any.whl.metadata (2.2 kB)
-Using cached wheel-0.42.0-py3-none-any.whl (65 kB)
-Installing collected packages: wheel
-Successfully installed wheel-0.42.0
-
-549  04/12/23 20:05:04  python -m site --user-site
-  550  04/12/23 20:05:55  python3 -m venv venv
-  551  04/12/23 20:06:12  . venv/bin/activate
-  552  04/12/23 20:07:35  pip3 install pynvim
-  553  04/12/23 20:08:12  pip3 install --upgrade pip
-  554  04/12/23 20:08:30  pip3 install cryptography
-  555  04/12/23 20:08:51  pip3 install pyshorteners
-  556  04/12/23 20:11:49  sudo pacman -Sy python-pip
-  557  04/12/23 20:12:29  sudo pacman -Syu
-  558  04/12/23 20:12:42  sudo pacman -Sy base-devel wget
-  559  04/12/23 20:13:34  python -V
-  560  04/12/23 20:16:24  python3 -m tkinter
-  561  04/12/23 20:16:37  python -m tkinter
-  562  04/12/23 20:16:57  deactivate
-  563  04/12/23 20:17:02  python -m tkinter
-  564  04/12/23 20:17:15  . venv/bin/activate
-  565  04/12/23 20:17:38  sudo pacman -Sy tkinter
-  566  04/12/23 20:17:53  sudo pacman -S tkinter
-  567  04/12/23 20:17:58  sudo pacman -S tk
-  568  04/12/23 20:37:18  sudo pacman -S customtkinter
-  569  04/12/23 20:37:58  sudo pacman -S ttk
-  570  04/12/23 20:39:09  sudo pacman -S tkinter-complete
-  571  04/12/23 20:39:25  python -m tkinter-complete
-  572  04/12/23 20:41:40  pip3 install customtkinter
-  573  04/12/23 20:41:48  deactivate
-  574  04/12/23 20:41:53  pip3 install customtkinter
-  575  04/12/23 20:42:15  python -m customtkinter
-  576  04/12/23 20:42:33  python -m pip3 install customtkinter
-  577  04/12/23 20:42:46  python -m install customtkinter
-  578  04/12/23 20:43:25  . venv/bin/activate
-  579  04/12/23 20:44:49  pip3 install customtkinter
-  580  04/12/23 20:44:58  deactivate
-  581  04/12/23 20:45:02  pip3 install customtkinter
-  582  04/12/23 20:45:40  pacman -S python-customtkinter
-  583  04/12/23 20:45:59  . venv/bin/activate
-  584  04/12/23 20:48:01  pip3 install pyqt
-  585  04/12/23 20:48:25  pacman -S python-pyqt
-  586  04/12/23 20:49:24  pacman -S python-numpy
-  587  04/12/23 20:49:51  pacman -S python-pyqt
-  588  04/12/23 20:50:07  pacman -S python-pandas
-  589  04/12/23 20:50:42  pacman -S python-matplotlib
-  590  04/12/23 20:51:35  pacman -S python-seaborn
-  591  04/12/23 20:52:23  pacman -S python-request
-  592  04/12/23 20:52:51  pacman -S python-urllib3
-  593  04/12/23 20:53:14  pacman -S python-requests
-  594  04/12/23 20:53:44  pacman -S python-nltk
-  595  04/12/23 20:54:26  pacman -S python-pillow
-  596  04/12/23 20:54:42  pacman -S python-pytest
-  597  04/12/23 20:55:19  pacman -S python-scikit-learn
-  598  04/12/23 20:57:00  pacman -S python-beautifulsoup
-  599  04/12/23 20:57:19  pacman -S python-BeautifulSoup
-  600  04/12/23 20:57:27  pacman -S python-beautifulSoup
-  601  04/12/23 20:57:45  pip3 install BeautifulSoup
-  602  04/12/23 20:58:22  pip3 install beautifulsoup
-  603  04/12/23 20:59:29  pip3 install beautifulsoup4
-  604  04/12/23 21:00:55  pip list --outdated
-  605  04/12/23 21:02:10  pip3 install setuptools==65.5.0
-  606  04/12/23 21:02:19  pip3 install setuptools
-  607  04/12/23 21:02:41  pip3 install setuptools --latests
-  608  04/12/23 21:05:10  pip3 install setuptools==69.0.2
-  609  04/12/23 21:06:31  pip3 install wheel==0.42.0
-
-┌─[srhills@minipcpn62] - [~] - [1043]
-└─[$] pip list --user                                       
-
-Package      Version
------------- -------
-pyshorteners 1.0.1
-
-┌─[srhills@minipcpn62] - [~] - [1051]
-└─[$] python -m site                                                                                                                  
-sys.path = [
-    '/home/srhills',
-    '/usr/lib/python311.zip',
-    '/usr/lib/python3.11',
-    '/usr/lib/python3.11/lib-dynload',
-    '/home/srhills/.local/lib/python3.11/site-packages',
-    '/usr/lib/python3.11/site-packages',
-]
-USER_BASE: '/home/srhills/.local' (exists)
-USER_SITE: '/home/srhills/.local/lib/python3.11/site-packages' (exists)
-ENABLE_USER_SITE: True
-┌─[srhills@minipcpn62] - [~] - [1052]
-└─[$]
-
-## Using Pip Show for Package Location
-
-The pip show command can provide information about a single, globally installed package, including its location:
-
-pip show <packagename>
-
-How to Determine the Location of Locally Installed Packages
-
-To list the location of locally installed packages, use the following command:
-
-python -m site --user-site
 
 ┌─[srhills@minipcpn62] - [~] - [1052]
 └─[$] python -m site --user-site
@@ -284,7 +167,7 @@ Windows
 Install a local project in “editable” mode. See the section on Editable Installs.
 Unix/macOS
 
-python -m pip install -e .                # project in current directory
+python -m pip install -e .                # project in the current directory
 python -m pip install -e path/to/project  # project in another directory
 
 Windows
